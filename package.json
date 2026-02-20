@@ -1,0 +1,63 @@
+{
+  "name": "quantum-ledger-ai",
+  "version": "1.0.0",
+  "description": "AI-powered futures trading bot with multi-AI ensemble strategies, real-time price monitoring, and automated risk management",
+  "main": "src/index.js",
+  "homepage": "https://github.com/jai-fire/quantum-ledger-ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jai-fire/quantum-ledger-ai.git"
+  },
+  "keywords": [
+    "trading",
+    "crypto",
+    "ai",
+    "ml",
+    "futures",
+    "bot",
+    "ethereum",
+    "bitcoin",
+    "binance",
+    "automated-trading"
+  ],
+  "author": "jai-fire",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "NODE_ENV=development npm start"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.4.0",
+    "recharts": "^2.7.0",
+    "react-router-dom": "^6.11.0",
+    "ws": "^8.13.0",
+    "moment": "^2.29.4",
+    "decimal.js": "^10.4.3",
+    "classnames": "^2.3.2"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "eslint": "^8.40.0",
+    "prettier": "^2.8.8"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}
